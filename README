@@ -1,0 +1,15 @@
+Add to start.sh 
+
+exec_path=$(readlink -f <where is the wpa_supplicant?>)
+
+(You can choose by default to be P2P-GO or just start WiFi Direct
+and then role will be decided after the negotiation).
+
+defconfig is the configuration for wpa_supplicant.
+just change it to ".config" and compile wpa_supplicant.
+
+avrahamcohen.ac@gmail.com
+
+Enjoy.
+
+
